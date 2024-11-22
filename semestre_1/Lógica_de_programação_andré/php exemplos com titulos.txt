@@ -1,0 +1,409 @@
+1_Ordem_Operadores
+
+<?php
+
+echo 3 + 2 * 5;
+echo "<br>";
+echo (3 + 2) * 5;
+echo "<br>";
+echo 5 + 2 / 10;
+echo "<br>";
+
+$a = 5;
+$b = 2;
+$c = 10;
+
+echo $a + $b / $c;
+echo "<br>";
+echo $c + $b / $a;
+echo "<br>";
+
+$d = $a * $b * $c;
+echo $d;
+echo "<br>";
+
+?>
+____________________________________________________________________________________________________
+2_Mudança_Tipo_Implicita
+<?php
+
+echo 5 / 2;
+echo "<br>";
+
+if(is_float(5/2)) {
+    echo "É float <br>";
+}
+
+echo 2 . 3;
+echo "<br>";
+
+if(is_string(2 . 3)) {
+    echo "É string <br>";
+}
+
+$nome = "ANDRE ";
+$sobrenome = "MAIA";
+
+$nomeCompleto = $nome . " " . $sobrenome;
+
+echo $nomeCompleto;
+echo "<br>";
+
+?>
+_________________________________________________________________________________________________
+3_Operadores_Aritmeticos
+
+<?php
+
+$soma = 5 + 5;
+echo $soma . "<br>";
+
+$subtracao = 10 - 2;
+echo $subtracao . "<br>";
+
+$multi = 2 * 199;
+echo $multi . "<br>";
+
+$divisao = 123 / 48;
+echo $divisao . "<br>";
+
+$op = 5 + (2 / 7) * 8;
+echo $op . "<br>";
+
+?>
+
+___________________________________________________________________________________________________
+4_Operador_de_Modulo
+
+<?php
+
+echo 12 % 2;
+echo " módulo <br>";
+echo 12 / 2;
+echo " divisão <br>";
+
+echo 13 % 2;
+echo "<br>";
+echo 13 % 5;
+echo "<br>";
+
+$a = 20;
+$b = 4;
+$c = 12;
+
+echo $a % $b;
+echo "<br>";
+echo $a % $c;
+
+?>
+
+_________________________________________________________________________________________________
+5_Operador_Exponenciacao
+
+<?PHP
+
+  echo 5 ** 2;
+  echo " <br>";
+  echo 2 ** 10;
+  echo "<br>";
+ 
+$a = 7;
+$b = 4;
+
+echo $a ** $b;
+echo "<br>";
+
+$c = 12;
+
+$d = $c ** $a;
+
+echo $d;
+
+?>
+
+___________________________________________________________________________________________________
+6_Operador_Contatenacao
+
+<?php
+ 
+  echo "testando a concatenação";
+  echo "<br>";
+  echo "testando" . "a" . "concatenação";
+  echo "<br>";
+
+   $t = "testando";
+   $c = "concatenação";
+
+  echo $t . " a " . $c;
+
+  echo "<br>";
+  $marca = "Ferrari":
+  $motor = "3.0";
+  $vel_max = 200;
+
+  echo "O carro da " . $marca . "tem um motor ". $motor . "e chega uma velocidade de " . $vel_max . "km/h";
+  echo "<br>";
+
+?>
+
+___________________________________________________________________________________________________
+7_Auto_Incremendo_e_Auto_Decremento
+
+<php?
+
+$x = 0;
+$y = 0;
+
+$x++;
+$y = $y + 1;
+
+echo "x: " . $x . "<br>";
+echo "y: " . $y . "<br>";
+
+$n = 10;
+$m = 10;
+
+$n--;
+$m = $m - 1;
+
+echo "n: " . $n . "<br>";
+echo "m: " . $m . "<br>";
+
+?>
+
+__________________________________________________________________________________________________
+8_Operadores_de_Comparacao
+
+<?php
+
+    if(3 == 3) {
+      echo "Comparação verdadeira 1<br>";
+     }
+
+    if (3 == 4) {
+      echo "Comparação verdadeira 2<br>";
+     }
+
+     $a = 12;
+     $b = 12;
+     $c = 100;
+
+
+     if($a == $b) {
+      echo "Comparaçao verdadeira 3<br>";
+     }
+
+     if($a == $c) {
+      echo "Comparaçao verdadeira 4<br>";
+     }
+
+     $nome = "Seu nome aqui";
+     $nomeDoSistema = "Cyborg";
+
+     if($nome == $nomeDoSistema) {
+      echo "O nome coincide 1<br>";
+     }
+
+?>
+
+_____________________________________________________________________________________________________
+9_Operador_de_Igualdade
+
+<?php
+ 
+   if(5 == "5") {
+     echo "5 é 5 1<br>";
+}
+
+// op de idêntico
+if(5 === "5") {
+  echo "5 é 5 2 <br>";
+}
+
+if(5 ===5) {
+  echo "É igual <br>";
+}
+
+$a = 4;
+$b = 4;
+$c = "4";
+
+if($a === $b {
+   echo "A é igualB <br>";
+}
+
+if($a === $c {
+  echo "A é igual a C <br>";
+}
+?>
+
+___________________________________________________________________________________________________-
+10_Operador_De_Diferença
+
+<?php
+
+$a = 3;
+$b = 4;
+
+if($a != $b) {
+    echo "Testando diferença 1<br>";
+}
+
+if($a != 3) {
+    echo "Testando diferença 2<br>";
+}
+
+if(false != "Teste") {
+    echo "Testando diferença 3<br>";
+}
+
+if(3 != "3") {
+    echo "Testando diferença 4<br>";
+}
+
+if(3 != "4") {
+    echo "Testando diferença 5<br>";
+}
+
+?>
+
+_______________________________________________________________________________________________
+11_Operacao_nao_identico_a
+
+<php?
+
+$a = 1;
+$b = "1";
+
+if($a != $b) {
+    echo "A é diferente de B 1 <br>";
+}
+
+if($a !== $b) {
+    echo "A é diferente de B <br>";
+}
+
+if(1 !== 2) {
+    echo "Não é identico 1 <br>";
+}
+
+if(1 !== 1 {
+    echo "Não é identico 2 <br>";
+})
+
+if([] !== "abc") {
+    echo "Não é identico 3 <br>";
+}
+
+?>
+
+__________________________________________________________________________
+12_Operador_Maior_e_Maior_ou_Igual
+
+<php?
+
+$a = 4;
+$b = 5;
+$c = 6;
+$d = 6;
+$e = 7;
+
+if($a > $b) {
+    echo "A é maior que B <br>";
+}
+
+if($b > $a) {
+    echo "B é maior que A <br>";
+}
+
+if($d >= $c){
+    echo "D é maior ou igual a C <br>";
+}
+
+if($d >= $a) {
+    echo "D é maior ou igual a A <br>";
+}
+
+if($d >= $e) {
+    echo " echo "D é maior ou igual a E <br>";"
+}
+
+?>
+
+______________________________________________________________________________________________
+12_Operador_Menor_e_menor_ou_Igual
+
+<?php
+
+  if(4 < 12) {
+   echo "4 é menor que 12 <br>";
+}
+if(24 < 12) {
+  echo "24 é menor que 12 <br>";
+}
+
+if(12 <= 12) {
+  echo "12 é menor ou igual a 12 <br>";
+}
+$a = 5;
+$b = 18;
+
+if($a <= $b) {
+  echo "A é menor ou igual a B <br>";
+}
+if($b <= $a) {
+  echo "B é menor ou igual a A <br>";
+}
+if($b <= 42) {
+  echo "B é menor ou igual a 42 <br>";
+}
+
+?>
+
+______________________________________________________________________________________
+14_Operadores_Logicos
+
+<?php
+
+  if(5 > 10 && 10 > 5) { // false e true
+    echo "Entrou no if 1 <br>";
+  }
+
+  if(50 > 10 && 10 > 5) { // true e true
+    echo "Entrou no if 2 <br>";
+  }
+
+  if(50 > 10 && 10 > 500) { // true e false
+    echo "Entrou no if 3 <br>";
+  }
+
+  if(50 > 100 && 10 > 500) { // false e false
+    echo "Entrou no if 4 <br>";
+  }
+
+  $a = 10;
+  $b = 5;
+  $c = 12;
+  $d = 12;
+
+  if($a > $b && $c == $d) {
+    echo "Entrou no if 5 <br>";
+  }
+
+  if($b <= $a && $c >= $d) {
+    echo "Entrou no if 6 <br>";
+  }
+
+  if($b === $a && $c > $d) {
+    echo "Entrou no if 7 <br>";
+  }
+?
+
+  if(($b <= $a && $c >= $d) && $a > $b) {
+    echo "Entrou no if 8 <br>";
+  }
+
+  if($b <= $a && $c >= $d && $c === $a) {
+    echo "Entrou no if 9 <br>";
+  }
+_____________________________________________________________________________________________________
