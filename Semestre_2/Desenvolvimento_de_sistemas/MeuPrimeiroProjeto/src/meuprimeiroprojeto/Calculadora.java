@@ -10,24 +10,25 @@ package meuprimeiroprojeto;
  */
 public class Calculadora {
     
-    int resultado;
+    float resultado;
     
-    public Integer Soma(int a, int b){
+    public Float Soma(float a,float b){
         resultado = a + b;
        return resultado;    
     }
-    public Integer Divisao(int a, int b){
+    public Float Divisao(float a, float b){
        resultado = a / b;
     return resultado;
     }
-    public Integer Multi(int a,int b){
+    public Float Multi(float a,float b){
        resultado = a * b;
     return resultado;
     }
-    public Integer Subtracao(int a, int b){
+    public Float Subtracao(float a, float b){
        resultado = a - b;
       return resultado;
     }
+    
     
     
     
