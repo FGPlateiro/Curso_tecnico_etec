@@ -23,7 +23,7 @@ loop dentro de loop
 como nas estruturas if, podemos adicionar loop dentro de outro loop;
 o contador deve ser unico, para que um loop não afete o outro;
 o loop interno sera executado tantas vezes quanto o loop externo for;
-e em cada uma das suas execuções, serão passadas tiodas as suas etapas;
+e em cada uma das suas execuções, serão passadas todas as suas etapas;
 
 
 

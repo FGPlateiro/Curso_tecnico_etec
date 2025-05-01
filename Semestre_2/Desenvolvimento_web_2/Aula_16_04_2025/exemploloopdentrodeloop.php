@@ -15,8 +15,13 @@ while($i <= 10){
     while($j <= 5){
      echo "loop interno $j <br>";
      
+     echo "$c 2 <br>";
+
+     $j++;
 
     }
+
+    $i++;
 }
 
 ?>
