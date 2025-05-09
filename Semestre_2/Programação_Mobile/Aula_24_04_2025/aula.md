@@ -15,3 +15,10 @@ Estados.
 
 é uma variavel de front end que atualiza na tela, ela guarda
 um espaço na memoria que quando alterado ele atualiza na tela.
+
+08/05/2025 - continuação do app 02
+quando baixamos o projeto do git ele não baixa todas as pastas ai para isso
+temos que usar o comando NPM I que é para fazer a intalações dos pacotes que faltam
+
+
+set-executionpolicy comando para quando tem problemas de segurança para baixar os pacotes

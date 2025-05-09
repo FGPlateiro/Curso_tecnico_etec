@@ -4,7 +4,7 @@
 ?>
   <main>
     <div id="title-container">
-      <h1>Blog</h1>
+      <h1>Blog do Dekko</h1>
       <p>O seu blog de Programação</p>
     </div>
     <div id="posts-container">
